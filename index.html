@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Duy Khanh Tran, duykhanhtran1808, duykhanhtc, dt22aap">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .container {
+            max-width: 960px;
+        }
+
+        .nav-bar {
+            background-color: rgba(0, 0, 0, .60);
+            -webkit-backdrop-filter: saturate(120%) blur(10px);
+            backdrop-filter: saturate(120%) blur(10px);
+        }
+
+        .nav-bar a {
+            color: ghostwhite;
+            transition: color .10s ease-in-out;
+            text-decoration: none;
+        }
+
+        .nav-bar a:hover {
+            color: cornsilk;
+            text-decoration: none;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+    <title>dt22aap</title>
+</head>
+
+<body>
+    <header class="nav-bar sticky-top py-1">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z" />
+                </svg>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">WiredTech</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Products</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">About</a>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row  pt-4">
+            <div class="col-6 col-md">
+                <h3>We're Your First Contact For All Of Your Technology:</h3>
+                <p class="text-justify">Are you having any issues with your computer? Then you have come to the right place. WiredTech have
+                    supported our customers with their laptops, mobile phones and desktop computers over 10 years (see
+                    our
+                    testimonial page).</p>
+                <p class="text-justify">We can work with you to design, create and maintain all your systems. Our goal is to help you get the
+                    most
+                    economical option for the services you need.</p>
+                <p class="text-justify">Our departments are structured for supporting your business with uptime. WiredTech ensures the
+                    reliability
+                    of IT services across your organisation. We aim to design, maximise and consult on the use of a wide
+                    range
+                    of operating systems and networks, both for you and to maintain a high quality of services for your
+                    customers.</p>
+                <p class="text-justify">We can install, configure and secure the following operating systems:</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item fw-bold">Debian, Ubuntu, CentOS: LAMP Stack</li>
+                    <li class="list-group-item fw-bold">Windows: Java or Node.js</li>
+                </ul>
+                <p class="text-justify">Our dedicated team support starts with contacting our inhouse specialist:</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item fw-bold">Duy Khanh Tran</li>
+                    <li class="list-group-item fw-bold">21081949</li>
+                    <li class="list-group-item fw-bold">Last updated: 29/10/2022</li>
+                </ul>
+
+            </div>
+            <div class="col-6 col-md">
+                <img src="catpic.png" alt="Cat Pic" class="rounded img-fluid">
+            </div>
+        </div>
+    </main>
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-6 col-md">
+                <h5>WiredTech</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a href="#" class="link-secondary">Contact</a></li>
+                    <li><a href="#" class="link-secondary">Products</a></li>
+                    <li><a href="#" class="link-secondary">Partners</a></li>
+                    <li><a href="#" class="link-secondary">Address</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md">
+                <h5>Social Media</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a href="#" class="link-secondary">Facebook</a></li>
+                    <li><a href="#" class="link-secondary">Twitter</a></li>
+                    <li><a href="#" class="link-secondary">Youtube</a></li>
+                    <li><a href="#" class="link-secondary">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
